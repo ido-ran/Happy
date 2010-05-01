@@ -19,6 +19,8 @@ Happy.main = function main() {
   // create multiple pages and panes.  
   Happy.getPath('mainPage.mainPane').append() ;
 
+	Happy.testController.fetch();
+
   // Step 2. Set the content property on your primary controller.
   // This will make your app come alive!
 
